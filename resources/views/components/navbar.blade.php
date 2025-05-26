@@ -4,7 +4,7 @@
       <!-- Logo & Company Name -->
       <div class="flex items-center space-x-3">
         <img src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600" alt="Logo" class="h-8 w-8">
-        <span class="text-xl font-bold tracking-wide">TournaPro</span>
+        <span class="text-xl font-bold tracking-wide">Tourna<span class="text-purple-800">Pro</span></span>
       </div>
       
       <!-- Navigation Links -->

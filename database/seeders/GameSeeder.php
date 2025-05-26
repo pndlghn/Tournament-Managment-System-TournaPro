@@ -13,11 +13,12 @@ class GameSeeder extends Seeder
     public function run(): void
     {
         Game::insert([
-            ['name' => 'League of Legends', 'slug' => 'lol', 'logo' => 'lol.png'],
+            ['name' => 'League of Legends', 'slug' => 'league-of-legends', 'logo' => 'lol.png'],
             ['name' => 'Valorant', 'slug' => 'valorant', 'logo' => 'valorant.webp'],
-            ['name' => 'Mobile Legends', 'slug' => 'mlbb', 'logo' => 'mlbb.png'],
-            ['name' => 'PUBG Mobile', 'slug' => 'pubg', 'logo' => 'pubgm.png'],
-            ['name' => 'Counter-Strike 2', 'slug' => 'cs2', 'logo' => 'csgo2.png'],
+            ['name' => 'Mobile Legends', 'slug' => 'mobile-legends-bang-bang', 'logo' => 'mlbb.png'],
+            ['name' => 'PUBG Mobile', 'slug' => 'pubg-mobile', 'logo' => 'pubgm.png'],
+            ['name' => 'Counter-Strike 2', 'slug' => 'counter-strike-2', 'logo' => 'csgo2.png'],
+            
         ]);
     }
 }
