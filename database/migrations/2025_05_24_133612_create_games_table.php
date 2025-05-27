@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug')->unique();
             $table->string('logo'); // path ke logo
+            $table->string('banner');
             $table->timestamps();
         });
     }

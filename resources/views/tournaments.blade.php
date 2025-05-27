@@ -1,24 +1,5 @@
 <x-layout>
-    <div class="relative w-full h-64 bg-gray-900 overflow-hidden">
-        <!-- Background Image -->
-        <img src="/path/to/e2337ca1-b5a9-481a-8650-2780c0d5602e.png" alt="League of Legends" class="absolute inset-0 w-full h-full object-cover opacity-80" />
-      
-        <!-- Overlay -->
-        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-      
-        <!-- Content (Center Title & Icon) -->
-        <div class="relative z-10 flex flex-col items-center justify-center h-full text-white">
-          <img src="/path/to/your-icon.svg" alt="LoL Icon" class="w-10 h-10 mb-2" />
-          <h1 class="text-3xl font-bold">League Of Legends</h1>
-        </div>
-      
-        <!-- Bottom Navigation -->
-        <div class="relative z-10 flex gap-6 px-6 py-2 text-sm font-semibold text-white bg-black bg-opacity-50">
-          <a href="#" class="text-blue-400 border-b-2 border-blue-400 pb-1">Overview</a>
-          <a href="#" class="hover:text-blue-400">Tournaments</a>
-        </div>
-      </div>  
-
+  <x-header :game="$game"/>
       <div class="max-w-7xl mx-auto px-4 py-6">
         <!-- Tabs -->
         <div class="flex items-center space-x-8 border-b border-gray-700 pb-4">
@@ -71,5 +52,5 @@
     
         </div>
       </div>
-    
+      <x-footer></x-footer>
 </x-layout>
